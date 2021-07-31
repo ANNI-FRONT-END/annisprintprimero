@@ -1,0 +1,168 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+    <title>Sprint 1 Ana Beltràn</title>
+</head>
+<body>
+    <header class="cabecera">
+        <div id="desktop-menu">
+            <img src="./img/logo.svg" alt="">
+            <ul>
+                <li><a href="#linkEpisodios">EPISODIOS</a></li>
+                <li><a href="#linkNosotros">NOSOTROS</a></li>
+                <li><a href="#linkEntrevistas">ENTREVISTAS</a></li>
+                <li><a href="#linkTopicos">TÓPICOS</a></li>
+            </ul>
+        </div>
+        <nav class="mobile-menu">
+          <div class="img-mobile">
+            <img src="./img/logo.svg" alt="">
+            <label for="hamburguesa">
+             <img height="20px" src="./img/icono-hamburguesa.svg" alt="burguer" />
+            </label>
+          </div>
+          <input type="checkbox" id="hamburguesa" />
+          <div class="nav-menu-movil">
+            <div><a href="#linkEpisodios">EPISODIOS</a></div>
+            <div><a href="#linkNosotros">NOSOTROS</a></div>
+            <div><a href="#linkEntrevistas">ENTREVISTAS</a></div>
+            <div><a href="#linkTopicos">TÓPICOS</a></div>
+          </div>
+        </nav>
+
+    </header>
+
+    <section class="principal ">
+        <h1 class="textoLeft" >
+            Hello <span id="tachado">world</span> pale blue dot <span id="dot">.</span>
+        </h1>
+        <p class="parrafo textoLeft">
+            El portal de podcasts que explora el mundo de la programación y
+            la tecnología. Nuevos episodios, todos los jueves cada 15 días.
+        </p>
+        <a href="#linkNosotros" class="buttomLink textoLeft">Conoce más</a>
+    </section>
+
+    <section class="episodios" id="linkEpisodios">
+        <h2 class="tituloBlanco textoLeft">Episodios</h2>
+        <div id="podcast">
+             <iframe
+             src="https://open.spotify.com/embed-podcast/episode/47x2W9UkxbTBostmFP1YHn"
+             frameborder="0"
+             allowtransparency="true"
+             allow="encrypted-media">
+            </iframe>
+            <iframe
+              src="https://open.spotify.com/embed-podcast/episode/2vKMtwWKaPQxaHExExusZf"
+              frameborder="0"
+              allowtransparency="true"
+              allow="encrypted-media">
+            </iframe>
+            <iframe
+              src="https://open.spotify.com/embed-podcast/episode/4shXFuvZEkD9QWPGHuUWYq"
+              frameborder="0"
+              allowtransparency="true"
+              allow="encrypted-media">
+            </iframe>
+            <iframe
+              src="https://open.spotify.com/embed-podcast/episode/2PSacIuV7FY0G4o3Yex1Zi"
+              frameborder="0"
+              allowtransparency="true"
+              allow="encrypted-media">
+            </iframe>           
+        </div>
+    </section>
+
+    <section class="nosotros" id="linkNosotros">
+        <img src="./img/phone.png" alt="">
+        <div>
+            <h2 class="tituloAzul">De dónde venimos</h2>
+            
+            <p class="parrafo">
+                Our posturings, our imagined self-importance, the delusion that we
+                have some privileged position in the Universe, are challenged by this
+                point of pale light.
+                <br />
+                <br />
+                Our planet is a lonely speck in the great enveloping cosmic dark. In
+                our obscurity, in all this vastness, there is no hint that help will 
+                come from elsewhere to save us from ourselves.
+            </p>
+        </div>
+    </section>
+
+    <section class="invitados" id="linkEntrevistas">
+        <h2 class="tituloAzul textoLeft">Invitadas/os estelares</h2>
+        <div class="galeria">
+            <img src="./img/imagen1.png" alt="">
+            <img src="./img/imagen2.png" alt="">
+            <img src="./img/imagen3.png" alt="">
+            <img src="./img/imagen4.png" alt="">
+            <img src="./img/imagen5.png" alt="">
+            <img src="./img/imagen6.png" alt="">
+        </div>
+    </section>
+
+    <section class="topicos" id="linkTopicos">
+        <h2 class="tituloAzul textoLeft">Algunos de nuestros temas</h2>
+        <div class="content">
+            <div class="card">
+                <img src="./img/icon1.svg" alt="">
+                <h3>Trabajo remoto</h3>
+            </div>
+            <div class="card">
+                <img src="./img/icon2.svg" alt="" />
+                <h3>
+                  Repensando la <br />
+                  programación
+                </h3>
+              </div>
+              <div class="card">
+                <img src="./img/icon3.svg" alt="" />
+                <h3>Bases de código</h3>
+              </div>
+              <div class="card">
+                <img src="./img/icon4.svg" alt="" />
+                <h3>Seguridad <br />informática</h3>
+              </div>
+        </div>
+    </section>
+
+    <section class="novedades">
+        <h2 class="tituloBlanco">¿Quierés las últimas novedades?</h2>
+        <a href="#linkEpisodios" class="buttomLink">Escuchá los episodios</a>
+    </section>
+
+    <section class="footer">
+        <span class="parrafo">
+            © 2019— Hello blue pale dot
+        </span>
+        <div class="iconosRedes">
+              <a  href="https://www.spotify.com/co/home/">
+                <i class="fab fa-spotify"></i>
+              </a>
+              <a href="https://www.instagram.com/">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="https://twitter.com/?lang=es">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="https://www.facebook.com/">
+                <i class="fab fa-facebook-square"></i>
+              </a>
+              <a href="https://telegram.org/">
+                <i class="fab fa-telegram"></i>
+              </a>
+        </div>
+    </section>
+</body>
+</html>
